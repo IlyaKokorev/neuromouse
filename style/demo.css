@@ -1,0 +1,31 @@
+.demo_image {
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.demo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.demo_text {
+  font-size: 3em;
+}
+
+.demo_head_text {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+  .demo_text {
+    font-size: 1em;
+  }
+}

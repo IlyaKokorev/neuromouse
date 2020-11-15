@@ -1,0 +1,32 @@
+.contacts_head_text {
+  padding-top: 3%;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.contacts_button {
+  text-align: center;
+  font-size: 150%;
+  padding-bottom: 3%;
+}
+
+.contacts_button button {
+  width: 300px;
+  height: 100px;
+}
+
+.contacts_form {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 3%;
+}
+
+.button-primary {
+  font-size: 150%;
+}
+
+@media screen and (max-width: 650px) {
+  .contacts_form {
+    width: 90%;
+  }
+}
