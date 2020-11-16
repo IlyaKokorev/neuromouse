@@ -7,15 +7,19 @@
 
 .intro-container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
   text-align: center;
-  border-bottom: 1px solid black;
+  color: #fff;
+  background-size: cover;
+  -moz-box-shadow:0 0 20px #555;
+  -webkit-box-shadow:0 0 20px #555;
+  box-shadow:0 0 20px #555;
 }
 
 .intro_text {
   font-size: 3em;
+  text-shadow: white 0 0 10px;
+  color: #ffffff;
 }
 
 .intro_head_text {
