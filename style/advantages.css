@@ -1,9 +1,10 @@
 .features {
-  padding: 40px 0;
+  padding-top: 5%;
 }
 
 .features-item {
-  padding: 10px;
+  height: 25em;
+  width: auto;
 }
 
 .container {
@@ -15,6 +16,7 @@
 .column-1-4 {
   width: 33%;
   float: left;
+
 }
 
 .container:after {
@@ -50,14 +52,14 @@
   border-bottom: 1px solid black;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 1000px) {
   .column-1-4 {
     float: left;
     width: 50%;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 420px) {
   .column-1-4 {
     float: none;
     width: auto;
