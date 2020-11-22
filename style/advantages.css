@@ -59,7 +59,7 @@
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .column-1-4 {
     float: none;
     width: auto;
